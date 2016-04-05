@@ -1,0 +1,398 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  padding: 0;
+  background-color: #ebebeb;
+}
+
+.container-fluid {
+  margin: 0 5%;
+}
+
+.title {
+  color: #3b7dc7;
+}
+
+/*
+-careers heading = 20pt helvetica Neue Medium
+-recommened heading = 12pt ""
+brand = 30.36pt myriadpro semibold
+-description 15pt
+-button text = 12pt bold
+-notification text / 42 careers = 14pt ""
+notification heading = 12pt
+up down the hr = 20px
+btw title and 2nd row = 10px
+*/
+
+.no-left-padding {
+  padding-left: 0px;
+}
+
+.section-heading {
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.section-subheading {
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.careers-section, .companies-section, .jobs-section {
+  .section-body {
+    text-align: left;
+  }
+  .section-action {
+    text-align: center;
+  }
+}
+
+.careers-section, .companies-section {
+  .col-md-1, .col-sm-1 {
+    padding-top: 30px;
+  }
+  i {
+    font-size: 25px;
+    color: #3b7dc7;
+  }
+  .label.label-default {
+    & + span {
+      font-size: 12px;
+      a {
+        color: #3b7dc7;
+      }
+    }
+  }
+
+  .btn {
+    font-size: 12px;
+  }
+}
+
+
+
+.companies-section {
+  h4 {
+    margin-bottom: 2px;
+  }
+  .col-md-1 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .col-md-8 {
+    &.no-left-padding {
+      padding-left: 6px;
+    }
+  }
+  img {
+    width: 40px;
+  }
+  .description {
+    margin-top: 2px;
+    font-size: 12px;
+    color: #3b7dc7;
+  }
+  .btn {
+    color: #757575;
+  }
+  .no-of-careers-jobs {
+    color: #757575;
+    font-size: 14px;
+  }
+}
+
+.jobs-section {
+  .btn-rating {
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 18px;
+  }
+  .col-md-1 {
+    padding-top: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  img {
+    width: 40px;
+  }
+  h4 {
+    margin-bottom: 2px;
+  }
+  .job-company {
+    color: #757575;
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .job-place {
+    color: #757575;
+    margin-top: 5px;
+    font-size: 13px;
+  }
+  .save-icon {
+    margin-top: 5px;
+    color: #3b7dc7;
+  }
+}
+
+.notifications-section, .plans-section, .skills-section {
+  .description {
+    font-size: 14px;
+  }
+  .section-heading {
+    font-size: 12px;
+    color: #757575;
+    font-weight: bold;
+  }
+  .badge {
+    border-radius: 4px;
+    margin-left: 4px;
+    margin-bottom: 4px;
+    font-weight: normal;
+  }
+  img {
+    width: 30px;
+  }
+  .col-md-2 {
+    padding-top: 15px;
+  }
+}
+
+.skills-section {
+  .badge {
+    &.legend-badge {
+      padding: 7px 7px;
+      margin: 0;
+    }
+    & + span {
+      font-size: 12px;
+    }
+  }
+}
+
+.label {
+  padding: 3px;
+  &.label-default {
+    background-color: #fff;
+    color: #757575;
+    border: 1px solid #757575;
+  }
+}
+
+.section-footer {
+  margin: 10px 0px;
+  color: #757575;
+}
+
+.description {
+  margin-top: 10px;
+  font-size: 15px;
+  color: #757575;
+}
+
+.col-md-11.no-left-padding, .col-sm-11.no-left-padding {
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+
+/* Custom page header */
+.header {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navbar {
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
+
+.navbar-header {
+  padding-left: 15px;
+}
+
+.navbar-form {
+  width: 45%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  .form-control, .form-group {
+    width: 100%;
+  }
+}
+
+.circle {
+  position: absolute;
+  left: -3%;
+  top: 3%;
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  border: solid 1px black;
+  border-radius: 50%;
+}
+
+.navbar-first {
+  .navbar-brand {
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+  }
+  &.navbar-default {
+    border-bottom: none;
+    background-color: #fff;
+    .navbar-nav {
+      margin-top: 7px;
+      margin-bottom: 7px;
+      .badge-notify {
+        position: relative;
+        left: -20px;
+        top: 24px;
+        font-size: 8px;
+        background-color: #3b7dc7;
+        padding: 5px 7px;
+        font-weight: normal;
+      }
+      li {
+        a {
+          &.fa-bell {
+            color: #ccc;
+            font-size: 20px;
+          }
+          img {
+            width: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.navbar-second {
+  background-color: #3b7dc7;
+  &.navbar-default {
+    .navbar-nav {
+      li {
+        &.active {
+          a {
+            background-color: #2e6da4;
+          }
+        }
+        a {
+          color: whitesmoke;
+        }
+      }
+    }
+  }
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.container-fluid {
+  .jumbotron {
+    background-color: #fff;
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 10px 20px 10px 20px;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  .navbar-default {
+    .navbar-collapse {
+      border-color: transparent;
+    }
+  }
+
+  /* Remove the padding we set earlier */
+  .header {
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .container-fluid {
+    .jumbotron {
+      padding: 10px 20px 10px 20px;
+      border-bottom: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container-fluid {
+    .jumbotron {
+      background-color: blue;
+    }
+  }
+
+  .navbar-default {
+    .navbar-collapse, .navbar-form {
+      border-color: transparent;
+    }
+    .navbar-form {
+      margin-left: 0px;
+      width: 100%;
+    }
+  }
+
+  .container-fluid {
+    .jumbotron {
+      padding: 10px 20px 10px 20px;
+      border-bottom: 0;
+    }
+  }
+
+  .careers-section, .companies-section, .jobs-section {
+    .section-body {
+      text-align: center;
+    }
+    .no-left-padding {
+      padding-left: 20px;
+    }
+    .section-action {
+      text-align: center;
+    }
+  }
+
+  .navbar-first {
+    &.navbar-default{
+      .navbar-nav {
+        text-align: center;
+        .badge-notify {
+          left: 15px;
+          top: -24px;
+        }
+      }
+    }
+  }
+
+  .header {
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+}

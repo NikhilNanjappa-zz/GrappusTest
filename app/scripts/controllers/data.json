@@ -1,0 +1,128 @@
+{
+  "master_data": [{
+    "careers": [
+    { 
+      "title": "Mobile Software Engineer (iOS)",
+      "experience": "experienced", 
+      "sponsored_by":"JPMorgan Chase & Co.", 
+      "icon": "fa fa-desktop", 
+      "description":"We have an infinite amount to learn from both nature and from each other. Astronomy compels the soul to look upward, and leads us from this world to another"
+      },
+    { 
+      "title": "Data Scientist",
+      "experience": "entry level", 
+      "sponsored_by":"JPMorgan Chase & Co.",
+      "icon": "fa fa-pie-chart", 
+      "description":"We have an infinite amount to learn from both nature and from each other. Astronomy compels the soul to look upward, and leads us from this world to another"
+      },
+    { 
+      "title": "Technical Solutions Manager",
+      "experience": "experienced", 
+      "sponsored_by":"JPMorgan Chase & Co.", 
+      "icon": "fa fa-gavel",
+      "description":"We have an infinite amount to learn from both nature and from each other. Astronomy compels the soul to look upward, and leads us from this world to another"
+      }
+    ],
+    "companies": [
+    { 
+      "title": "Facebook",
+      "no_of_careers": "42", 
+      "no_of_jobs":"126", 
+      "share": "no",
+      "img_url": "http://i.imgur.com/umDsi9f.png",
+      "follow": "no"
+      },
+    { 
+      "title": "This one's got a really long name",
+      "no_of_careers": "42", 
+      "no_of_jobs":"126", 
+      "share": "yes",
+      "img_url": "https://octodex.github.com/images/megacat.jpg",
+      "follow": "yes"
+      },
+    { 
+      "title": "Amazon",
+      "no_of_careers": "42", 
+      "no_of_jobs":"126", 
+      "share": "no",
+      "img_url": "https://c1.staticflickr.com/9/8425/7749078932_c476055cdf.jpg",
+      "follow": "no"
+      }
+    ],
+    "jobs": [
+    { 
+      "title": "Web Analytics Manager",
+      "company": "Facebook", 
+      "place":"Palto Alto, CA", 
+      "save": "yes",
+      "img_url": "https://assets-cdn.github.com/images/modules/logos_page/Octocat.png",
+      "btncolor": "#7fcb5e",
+      "rating": "5.5"
+      },
+    { 
+      "title": "SEO Program Manager",
+      "company": "Teehan & Lax", 
+      "place":"New York", 
+      "save": "no",
+      "img_url": "https://octodex.github.com/images/megacat.jpg",
+      "btncolor": "#f57b7b",
+      "rating": "1.7"
+      },
+    { 
+      "title": "Big Data Scientist",
+      "company": "Twitter", 
+      "place":"Sunnyvale, CA", 
+      "save": "no",
+      "img_url": "https://octodex.github.com/images/octobiwan.jpg",
+      "btncolor": "#f7cc58",
+      "rating": "3.2"
+      }
+    ],
+    "notifications": [
+    { 
+      "img_url": "http://i.imgur.com/umDsi9f.png",
+      "description": "Facebook is looking for UX Evangelist and they want you to apply."
+      },
+    { 
+      "img_url": "https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png",
+      "description": "Twitter added 3 new jobs that might interest you." 
+      },
+    { 
+      "img_url": "https://octodex.github.com/images/megacat.jpg",
+      "description": "Your profile is incomplete. Only 4 more steps to complete your profile"
+      }
+    ],
+    "plans": [
+    { 
+      "img_url": "https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png",
+      "description": "Get hardcore immense experience coding in CSS or HTML."
+      },
+    { 
+      "img_url": "https://octodex.github.com/images/octobiwan.jpg",
+      "description": "Get experience using one of the A/B Testing frameeworks."
+      }
+    ],
+    "legends": [
+    { 
+      "color": "#434348",
+      "description": "TECHNOLOGY"
+      },
+    { 
+      "color": "#90ed7d",
+      "description": "MARKETTING"
+      },
+    { 
+      "color": "#f7a35c",
+      "description": "MEDIA"
+      },
+    { 
+      "color": "#8085e9",
+      "description": "FINANCE"
+      },
+    { 
+      "color": "#7cb5ec",
+      "description": "OTHERS"
+      }
+    ]
+  }]
+}
