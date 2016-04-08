@@ -38,7 +38,7 @@
     "gzippo": "^0.2.0"
   },
   "scripts": {
-    "postinstall": "grunt uglify",
+    "postinstall": "grunt serve",
     "start": "node web.js"
   }
 }
